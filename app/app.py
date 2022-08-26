@@ -9,7 +9,7 @@ app = FastAPI()
 
 @app.get("/")
 def root():
-    return {"message": "Fast API in Python"}
+    return {"message": "BROOOOOOO"}
 
 
 @app.get("/user")
