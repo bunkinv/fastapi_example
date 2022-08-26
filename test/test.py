@@ -1,5 +1,5 @@
 from starlette.testclient import TestClient
-from app.main import app
+from app.app import app
 import json
 
 client = TestClient(app)
